@@ -91,18 +91,19 @@ blockquote p:last-child {
  */
 
 /* Full size background image */
-html, #container, .inner { background-color:transparent;}
+html, #container, .inner { background-color:transparent}
 html {
-  background:url(background.jpg) center center no-repeat fixed;
-  background-size:cover;
+  /*background:url(background.jpg) center center no-repeat fixed;
+  background-size:cover;*/
+  background-color: rgba(0, 0, 0, 1); 
 }
 body {
   max-width:800px;
   margin:25px auto;
 }
 header, #content, footer { 
-  background: rgba(0,0,0,.8); 
-  padding:25px;
+  background: transparent; 
+  padding:50px;
   color:#FFFFFF; 
 }
 iframe {
@@ -138,6 +139,18 @@ ul.main-menu li a.active {
 }
 .show {
   display:block;
+}
+
+#hero-image {
+    float: left;
+    width: 30%;
+    min-width: 150px;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+#title-section{
+  padding-top: 50px;
 }
 
 
