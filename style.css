@@ -136,6 +136,12 @@ ul.main-menu li a.active {
   display:block;
 }
 
+#cover-container{
+  display: flex;
+  align-items: left;
+  gap: 20px;
+}
+
 #hero-image {
     float: left;
     width: 30%;
