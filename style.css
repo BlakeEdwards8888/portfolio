@@ -139,7 +139,6 @@ ul.main-menu li a.active {
 #hero-image {
     float: left;
     width: 30%;
-    min-width: 150px;
     padding-top: 30px;
     padding-right: 50px;
 }
