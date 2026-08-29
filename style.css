@@ -140,6 +140,7 @@ ul.main-menu li a.active {
   display: flex;
   align-items: left;
   gap: 20px;
+  background-color: green;
 }
 
 #hero-image {
@@ -150,7 +151,8 @@ ul.main-menu li a.active {
 }
 
 #title-section{
-  padding-top: 50px;
+  padding-top: 10px;
+
 }
 
 
