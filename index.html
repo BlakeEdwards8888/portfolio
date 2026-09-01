@@ -31,7 +31,7 @@
 <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
         <li><a href="#home">home</a></li>
-        <li><a href="#about">projects</a></li>
+        <li><a href="#projects">projects</a></li>
         <li><a href="#contact">contact</a></li>
       </ul>   
 
@@ -56,13 +56,45 @@
             </p>
           </div>
           
-          <div id="about" class="content-region hide">
+          <div id="projects" class="content-region hide">
             <h2>Projects</h2>
-            <p>
-              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
-            </p>
+            <p>These are my personal API projects listed in reverse chronological order</p>
+              <ul id="project-list">
+                <li>
+                  <h3>Leaderboard API</h3>
+                  <p>
+                     With my background in game development, I've always wanted to add a leaderboard to
+                     one of my game projects. I built a lightweight API using ASP.NET Core Minimal API.
+                     The API is currently deloyed on Azure and serves a live application.
+                  </p>
+                  <a href="https://nomppie.itch.io/city-of-hats" target="_blank" class="button">Demo</a>
+                  <a href="https://github.com/BlakeEdwards8888/city-of-hats-api" target="_blank" class="button">Repo</a>
+                </li>
+                <li>
+                  <h3>Pie Shop API</h3>
+                  <p>
+                    I built a REST API for a fictional online pie shop to explore real-world backend
+                    development. The API features full CRUD operations, authentication with role-based
+                    access control, logging, filtering, searching, and pagination.
+                    This project allowed me to put RESTful architecture and common API design patterns
+                    into practice.
+                  </p>
+                  <a href="https://pie-shop-appsvc-h0dzgyhgbha9fbg6.canadacentral-01.azurewebsites.net/swagger/index.html" target="_blank" class="button">Demo</a>
+                  <a href="https://github.com/BlakeEdwards8888/pie-shop-api" target="_blank" class="button">Repo</a>
+                </li>
+                <li>
+                  <h3>Pokedex API</h3>
+                  <p>
+                    My first solo backend project, built to develop a foundational understanding of
+                    API development with ASP.NET Core. I created a Pokédex API with full CRUD operations
+                    for storing and retrieving Pokémon data, giving me hands-on experience with the
+                    fundamentals of backend development.
+                  </p>
+                  <a href="https://dexappsvc-hvhqevbjdrhue5cc.canadacentral-01.azurewebsites.net/swagger/index.html" target="_blank" class="button">Demo</a>
+                  <a href="https://github.com/BlakeEdwards8888/pokedex-api" target="_blank" class="button">Repo</a>
+                </li>
+              </ul>
           </div>
-          
           <div id="contact" class="content-region hide">
             <h2>Contact</h2>
             <p>

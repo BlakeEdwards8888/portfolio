@@ -90,7 +90,7 @@ blockquote p:last-child {
 /* Full size background image */
 html, #container, .inner { background-color:transparent}
 html {
-  background-color: rgba(0, 0, 0, 1); 
+  background-color: black; 
 }
 body {
   max-width:800px;
@@ -152,7 +152,25 @@ ul.main-menu li a.active {
 
 #title-section{
   padding-top: 20px;
-
 }
 
+.button {
+  background-color: black;
+  border: 2px solid white;
+  padding: 10px 16px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3em;
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#project-list{
+  list-style: none;
+}
+
+#project-list li {
+  margin: 50px 0;
+}
 
